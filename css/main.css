@@ -21,15 +21,15 @@ nav {
 	width: 50px;
 }
 
+}
 .gallery{
-	max-width:300px;	
+	max-width:300px;
+	padding: 15px;
 }
 
 .set{
 	display: flex;
 	justify-content: space-between;
-	align-items:center;
-	
-	
+	align-items: center;
 }
 
