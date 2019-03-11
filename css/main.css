@@ -17,8 +17,13 @@ nav {
 	align-items: flex-end;
 }
 
-
 .icon {
 	width: 50px;
+}
+
+div<.gallery {
+	display: flex;
+	justify-content: space-between;
+	
 }
 
