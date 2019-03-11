@@ -22,12 +22,14 @@ nav {
 }
 
 .gallery{
-	max-width:100px;	
+	max-width:300px;	
 }
 
 .set{
 	display: flex;
 	justify-content: space-between;
+	align-items:center;
+	
 	
 }
 
