@@ -32,12 +32,13 @@ h3{
 	justify-content: center;
 	font-size: 24px;
 }
-button{ 
-	background color: url('https://github.com/Naiviv/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
-	background-blend-mode: multiply;
-	diplay: block;
-	margin: 0 auto;
-	width: 75px;
+.button {
+	text-decoration: none;
+	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	color: white;
+	background-color: #666;
+	background-blend-mode: overlay;
+	padding: 10px 50px;
 }
 
 
