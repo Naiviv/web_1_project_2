@@ -21,7 +21,11 @@ nav {
 	width: 50px;
 }
 
-div<.gallery {
+.gallery{
+	max-width:100px;	
+}
+
+div<#gallery {
 	display: flex;
 	justify-content: space-between;
 	
