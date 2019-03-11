@@ -34,7 +34,7 @@ h3{
 }
 .button {
 	text-decoration: none;
-	background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+	background: url ('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
 	color: white;
 	background-color: #666;
 	background-blend-mode: overlay;
