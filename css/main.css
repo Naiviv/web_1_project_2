@@ -1,11 +1,11 @@
-@font-face{
-	font-family: 'Museo';
-	src: url(../assets/fonts/Museo/museo-300-webfont.woff) format("woff");
-
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
 }
+
 body{
   background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
-  font-family: "Museo" sans-serif;
+  font-family: "Museo", sans-serif;
 }
 nav {
 	display: flex;
@@ -139,27 +139,49 @@ footer{
   overflow: none;
 }
 #f1{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   width: 30%;
-  justify-content: center;
 }
 #search{
   background: white;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 0px 0px 30px 5px
+  margin: 0px 0px 30px 5px;
+  position: relative;
+  top: -70px;
   
 }
 #f1 >#search>img {
   height: 20px;
-  margin: 1px 5px 0px 5px;
+  margin: 1px 5px 0px 0px;
+  margin: 0px 0px 30px 5px;
+  position: relative;
+  left: 5px;
+  top: 15px
 }
+#f1 > h3 {
+  position: relative;
+  top: -30px;
+}
+
 #f1 >#search>p{
   color: grey;
-  font-size: 18px;
+  font-size: 24px;
+  margin: 0px 0px 30px 5px;
+  position: relative;
+  top: 15px;
+  left: 10px
+}
+#f1>p{
+  margin: 0px 0px 30px 5px;
+  position: relative;
+  top: -50px;
 }
 #repeat{
-  margin:  38px 0px 5px 0px ;
+  margin:  20px 0px 0px 0px ;
   max-width: 100%;
   display: flex;
   align-items: center;
@@ -174,9 +196,10 @@ footer{
   width: 30%;
   justify-content: flex-start;
 }
-#f2, #f3, #f1 > h3 {
+#f1, #f2, #f3 > h3 {
   color: #666;
   align-self: flex-start;
+  pading: 0;
 }
 #f3{
   display: flex;
@@ -197,6 +220,7 @@ footer{
 }
 a{
   text-decoration: none;
+  color: grey
 }
 p{
   color: white
