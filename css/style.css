@@ -28,35 +28,68 @@ nav {
 .icon {
 	width: 50px;
 }
+a{
+  text-decoration: none;
+  color: grey
+}
+p{
+  color: white
+}
 #student-feature {
   margin: 0px 20px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr) 2fr;
 	grid-template-rows: repeat(2, 1fr) 200px; 
-	grid-gap: 10px;
+	grid-gap: 25px;
   height: 700px;
-  
 }
-
 #student-feature>img {
 	width: 100%;
 }
-
  #focus {
-	background: url('https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80');
+   border: 10px solid white;
+	background: url('https://www.macmillandictionary.com/external/slideshow/full/Grey_full.png');
 	background-size: cover;
 	background-position: center;
 	grid-column-start: 1 ;
 	grid-column-end: 4;
 	grid-row-start: 1; 
 	grid-row-end: 3;
-
 }
-
-
-
+#slideshow{
+	position: relative;
+	max-width: 100%;
+  margin: 0 auto;
+	max-width: 100%;
+  top: -20px
+}
+#slideshow >div{
+  width: 97.6%;
+  background-color: #666;
+  position: absolute;
+  top: 421px;
+  overflow: none;
+  text-align: right;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+}
+.arrow{
+	max-height:75px
+}
+#arrow-l{
+  position: absolute;
+	top: 225px;
+	left: -26px;
+}
+#arrow-r{
+  position: absolute;
+	top: 225px;
+	left: 812px;
+}
 #position-one {
-	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+  border: 10px solid white;
+	background: url('https://www.macmillandictionary.com/external/slideshow/full/Grey_full.png');
 	background-position: center;
 	background-size: cover;
 	grid-column-start: 1 ;
@@ -64,9 +97,9 @@ nav {
 	grid-row-start: 3; 
 	grid-row-end: 4;
 }
-
 #position-two {
-	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+     border: 10px solid white;
+	background: url('https://www.macmillandictionary.com/external/slideshow/full/Grey_full.png');
 	background-position: center;
 	background-size: cover;
 	grid-column-start: 2 ;
@@ -74,15 +107,14 @@ nav {
 	grid-row-start: 3; 
 	grid-row-end: 4;
   object-fit: cover;
-  height: 200px;
-
+  height: 180px;
 }
 #position-two> img{
-   height: 200px;
+   height: 180px;
 }
-
 #position-three {
-	background: url('https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
+     border: 10px solid white;
+	background: url('https://www.macmillandictionary.com/external/slideshow/full/Grey_full.png');
 	background-position: center;
 	background-size: cover;
 	grid-column-start: 3 ;
@@ -90,34 +122,71 @@ nav {
 	grid-row-start: 3; 
 	grid-row-end: 4;
 }
-
 #bio {
-	background: red;
+	background: white;
 	grid-column-start: 4 ;
 	grid-column-end: 5;
 	grid-row-start: 1; 
 	grid-row-end: 2;
+  display: flex;
+  justify-content: flex-end; 
 }
-
+#contact{
+  height: 175px;
+  display: flex; 
+  margin: 20px 5px;
+  line-height: 0.1;
+  
+}
+#contact > h3{
+  color:#666;
+  font-size: 24px;
+  line-height: 0.1;
+  
+}
+#contact > p {
+  color: grey;
+  font-size: 20px;
+}
+#bio> img{
+  height: 205px;
+  width: 150px;
+  margin: 10px;
+}
 #project-detail {
-	background: blue;
+	background: white;
 	grid-column-start: 4 ;
 	grid-column-end: 5;
 	grid-row-start: 2; 
 	grid-row-end: 4;
 }
-
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#project-detail> h3{
+  color: grey;
+  font-size: 32px;
+  margin: 20px 0px 0px 25px;
+  
+}
+#project-detail> p{
+  color: grey;
+  font-size: 24px;
+  margin: 20px 10px 0px 25px
+}
 #gallery{
   display: flex;
   flex-direction: column;
-  width: 100%; 
+  width: 95%; 
   justify-content: space-between;
   height: 425px;
-  margin: 0px 0px 100px 0px;
+  margin: 0px 20px 100px 20px;
   
 }
 .gallery{
-	max-width: 25%;
+	max-width: 24%;
   height: 200px;
 
 }
@@ -126,9 +195,10 @@ nav {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 }
-h3{
+.title{
+  color: grey;
 	font-size: 30px;
-  margin: 50px 0px -40px 20px;
+  margin: 50px 0px 0px 20px;
 }
 
 #tweet{
@@ -180,7 +250,8 @@ footer{
   align-items: center;
   justify-content: flex-start;
   margin: 0px 0px 30px 5px;
-  
+  position: relative;
+  top: -35px
 }
 #f1 >#search>img {
   height: 20px;
@@ -192,7 +263,8 @@ footer{
 }
 #f1 > h3 {
   position: relative;
-  left: -15px;
+  left: 5px;
+  padding: 5px 0px 10px 0px
 }
 
 #f1 >#search>p{
@@ -236,11 +308,12 @@ footer{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0px 40px;  
+  margin: 40px 40px;  
 }
-#f3>h3{
+#small{
   position: relative;
-  left: -20px;
+  top: -55px;
+  left: -5px;
 }
 .small-set{
 	display: flex;
@@ -254,12 +327,5 @@ footer{
 .gallery2{
 	max-width: 100px;
   height: 60px;
-  margin: 3px
-}
-a{
-  text-decoration: none;
-  color: grey
-}
-p{
-  color: white
+  margin: 3px;
 }
