@@ -110,14 +110,14 @@ nav {
 #gallery{
   display: flex;
   flex-direction: column;
-  width: 1430px; 
+  width: 100%; 
   justify-content: space-between;
   height: 425px;
   margin: 0px 0px 100px 0px;
   
 }
 .gallery{
-	max-width: 600px;
+	max-width: 25%;
   height: 200px;
 
 }
